@@ -94,6 +94,10 @@ input[type="reset"] {
   color: white;
 }
 
+input[type="text"] {
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 800px) {
   * {
     font-size: 0.5rem;

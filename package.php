@@ -51,6 +51,7 @@
 <html lang="en">
     <?php include './includes/header.php';?>
     <link rel="stylesheet" href="CSS/package.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <?php if ($set == 1) {?>
         <p style="background-color: lightgreen; padding: 10px;"><i class="fa fa-check"></i>Added Successfully</p>
     <?php }?>
@@ -62,7 +63,7 @@
             </div>
             <h4>About The Place</h4>
             <p><?php echo $package_details; ?></p>
-            <h2><span class="price-font">Price:</span> INR <span class="price"><?php echo $package_price; ?></span></h2>
+            <h2><span class="price-font">Price:</span><i class="fas fa-rupee-sign"></i><span class="price"><?php echo number_format($package_price); ?></span></h2>
             <div class="btns">
                 <input type="submit" name="sub" id="" value="Book Now" />
                 <input type="submit" name="sub2" id="" value="Go To Cart" />

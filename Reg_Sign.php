@@ -122,6 +122,7 @@ if (isset($_POST['sign_in'])) {
 
     if (!empty($doc2)) {
         $_SESSION["email"] = $_POST["login_email"];
+        $_SESSION["name"] = $doc2->FullName;
         header('Location: packages.php');
     } else {
         $set = 1; //Ignore, used as a flag varibale to know insertion

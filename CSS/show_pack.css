@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 * {
   padding: 0;
   margin: 0;
@@ -52,7 +53,7 @@ body {
   font-size: 2rem;
 }
 
-form {
+.show_form {
   width: 90%;
   height: 50px;
   margin: auto;
@@ -64,6 +65,22 @@ form {
 
 .card form {
   justify-content: space-between;
+}
+
+.show_form .price {
+  font-size: 1.5rem;
+  color: cadetblue;
+  flex: 1;
+  margin-left: 30%;
+}
+
+.show_form .tour_name {
+  flex: 2;
+  font-size: 1.5rem;
+}
+
+.show_form .delete {
+  flex: 1;
 }
 
 input {
@@ -80,9 +97,71 @@ input:hover {
 }
 
 .card a {
-  margin-left: 40%;
+  margin-left: 20%;
   text-decoration: none;
   color: black;
+}
+
+.logout {
+  margin-left: 20px;
+}
+
+.fas {
+  font-size: 1.3rem;
+}
+
+.payment {
+  /* width: 90%; */
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.logoutform {
+  /* width: 90%; */
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.buttons {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 30px;
+}
+
+.total {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.total .spanh1 {
+  width: 60%;
+  height: 10%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+.total .spanh1 .fas {
+  font-size: 2rem;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 800px) {
