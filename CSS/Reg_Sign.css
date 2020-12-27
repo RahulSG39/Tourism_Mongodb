@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../IMAGES/Landing-1.jpg");
+  background-color: white;
+  background-size: cover;
+}
+
+.form-wrap {
+  width: 65%;
+  height: 65%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), lightgray;
+  padding: 50px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  /* display: inline; */
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg {
+  height: 100%;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.login {
+  height: 100%;
+  text-align: center;
+  border-left: 1px solid black;
+  padding: 50px;
+  margin-left: 15px;
+}
+
+input {
+  width: 100%;
+  background: #3e3d3d;
+  /* border: 1px solid #fff; */
+  border-radius: 3px;
+  padding: 6px 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+
+input[type="submit"] {
+  /* background-color: lightslategrey; */
+  /* background: rgb(31, 134, 230, 0.6); */
+  background: cadetblue;
+  border: 30;
+  cursor: pointer;
+  color: #3e3d3d;
+  transition: 0.5s ease;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.btns {
+  display: none;
+  width: 100%;
+}
+
+.btns-style {
+  display: flex;
+  justify-content: center;
+}
+
+.reg-page-btn {
+  border-radius: 25px 0 0 25px;
+  padding-left: 25px;
+}
+
+.signin-page-btn {
+  border-radius: 0 25px 25px 0;
+  padding-right: 25px;
+  border-left: 1px solid black;
+}
+
+.reg-btn:hover {
+  background: black;
+  color: white;
+}
+
+.signin-btn:hover {
+  background: black;
+  color: white;
+}
+
+button {
+  background: #d4a114;
+  background-color: cadetblue;
+  padding: 0.5em;
+  margin: 0 0 8% 0;
+  border: none;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .login {
+    display: none;
+  }
+  .btns {
+    display: block;
+  }
+  * {
+    font-size: 0.5rem;
+  }
+}

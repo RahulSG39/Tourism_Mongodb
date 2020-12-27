@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+html,
+body {
+  background: url("../IMAGES/Landing-1.jpg");
+  background-size: cover;
+  color: black;
+  /* filter: brightness(50%); */
+}
+
+.landing {
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+}
+
+.landing-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  align-items: center;
+}
+
+.landing-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  text-shadow: 2px 2px 10px #23272a;
+}
+
+.landing-text button {
+  height: 60px;
+  width: 150px;
+  position: absolute;
+  left: 30%;
+  margin-top: 100px;
+  background: lightgray;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #23272a;
+  transition: 0.5s;
+}
+
+.landing-text button:hover {
+  background-color: #23272a;
+  color: white;
+  border: none;
+}

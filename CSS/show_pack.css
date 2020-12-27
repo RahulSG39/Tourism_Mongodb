@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 98vw;
+  background-image: url("../IMAGES/Landing-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.first-head {
+  color: lightblue;
+  font-size: 3rem;
+  height: 15%;
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+.package {
+  height: 20%;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border: none;
+}
+
+.card {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px black;
+  padding: 20px;
+  background-color: white;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+form {
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.card form {
+  justify-content: space-between;
+}
+
+input {
+  width: 100px;
+  height: 60px;
+  background: cadetblue;
+  border: none;
+  border-radius: 8px;
+}
+
+input:hover {
+  background: #b3e1e9;
+  color: black;
+}
+
+.card a {
+  margin-left: 40%;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 0.5rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+}

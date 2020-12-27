@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 98%;
+  margin: auto;
+  background-image: url("../IMAGES/Landing-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container1 {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 4vh;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+form {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  /* contain: size; */
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-img img {
+  height: 60vh;
+  width: 100%;
+  box-shadow: 0 3px 5px black;
+}
+
+form h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+form h4 {
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+form h2 {
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+
+.price-font {
+  color: cadetblue;
+}
+
+.price {
+  color: forestgreen;
+}
+
+.btns {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input[type="submit"] {
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: cadetblue;
+  color: white;
+}
+
+input[type="submit"]:nth-child(2) {
+  background: rgb(116, 139, 146);
+}
+
+input[type="submit"]:nth-child(1):hover {
+  background: #b3e1e9;
+  color: black;
+}
+
+input[type="submit"]:nth-child(2):hover {
+  background: rgb(161, 175, 175);
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 0.8rem;
+  }
+
+  .card-img img {
+    height: 200px;
+    /* width: 60%; */
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  * {
+    font-size: 0.8rem;
+  }
+}
