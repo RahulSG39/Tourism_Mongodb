@@ -73,26 +73,37 @@
     $total = 0;
     foreach ($tours as $tour) {
         foreach($packages as $package){
-            if($package->packageName == $tour){ 
+            if($package->packageName == $tour){                 
                 $total += $package->packagePrice;
     ?>
                 <div class="package">
                     <div class="card">
                     <form class="show_form" method="POST">
-                        <span class="tour_name"><a href="package.php?pkgid=<?php echo $package->packageId;?>"><?php echo $tour;?></a></span>
+                        <span class="tour_name"><a href="package.php?pkgid=<?php echo $package->packageId;?>"><?php echo "<span style='text-align: center;'>$tour</span>";?></a></span>
                         <span class="price"><i class="fas fa-rupee-sign"></i><?php echo number_format($package->packagePrice); ?></span>
                         <a class="delete" href="delete.php?id_name=<?php echo $tour; ?>"><i class="fa fa-times"></i></a>
                     </form>
                     </div>
                 </div>
     <?php 
-    } } }
+    } } } 
     $_SESSION["total"] = $total; 
     ?>
-
-    <span class="total"><h1 class="spanh1">Total: <i class="fas fa-rupee-sign"></i><?php echo number_format($total);?></h1></span>
+    
+    <?php
+        if($total == 0){
+            echo "<span class='total'><h1 class='spanh1'>Cart Empty</h1></span>";
+        }else{
+    ?>
+            <span class='total'><h1 class='spanh1'>Total: <i class='fas fa-rupee-sign'></i><?php echo number_format($total); ?></h1></span>
+    <?php
+        }
+    ?>
 
     <div class="buttons">
+    <?php
+        if($total != 0){
+    ?>
         <form  method="POST" class="payment">
             <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -106,7 +117,7 @@
             >
             </script>    
         </form>
-
+    <?php } ?>        
         <form action="" method="POST" class="logoutform">
             <input type="submit" name="logout" value="Logout" class="logout">
         </form>
