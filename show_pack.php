@@ -43,7 +43,7 @@
         $data=\Stripe\Charge::create(array(
             "amount"=>$overall,
             "currency"=>"inr",
-            "description"=>"Simple Tour Project By Rahul",
+            "description"=>"Simple Tour Project By ".$name,
             "source"=>$token,
         ));
     }
@@ -104,7 +104,7 @@
     <?php
         if($total != 0){
     ?>
-        <form  method="POST" class="payment">
+        <form method="POST" class="payment">
             <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             data-key="<?php echo $publishableKey; ?>"
@@ -116,7 +116,8 @@
             data-email=<?php echo $email; ?>
             >
             </script>    
-        </form>
+        </form>    
+
     <?php } ?>        
         <form action="" method="POST" class="logoutform">
             <input type="submit" name="logout" value="Logout" class="logout">
