@@ -23,9 +23,11 @@
             $package_price = $package->packagePrice;
             $package_details = $package->packageDetails;
             $package_image = $package->packageImage;
+            $package_date = $package->packageDate;
+            $end_date = $package->endDate;
         }
     }
-
+    
 // --------------------------------------------------------- //    
 
     $set = 0; // Ignore, used as a flag variable to check for insertion
@@ -59,11 +61,13 @@
         <form method="POST">
             <h1><?php echo $package_name; ?></h1>
             <div class="card-img">
-                <img src=<?php echo $package->packageImage; ?> width='475' height='400' />
+                <img src=<?php echo $package_image; ?> width='475' height='400' />
             </div>
             <h4>About The Place</h4>
             <p><?php echo $package_details; ?></p>
-            <h2><span class="price-font">Price:</span><i class="fas fa-rupee-sign"></i><span class="price"><?php echo number_format($package_price); ?></span></h2>
+            <h2><span class="price-font">Price:</span><i class="fas fa-rupee-sign"></i><span class="price"><?php echo number_format($package_price)."<br><br><br>";
+                                                                                                            echo "Duration:  ".$package_date->toDateTime()->format('d F Y')." - ".$end_date->toDateTime()->format('d F Y');
+                                                                                                            ?></span></h2>
             <div class="btns">
                 <input type="submit" name="sub" id="" value="Book Now" />
                 <input type="submit" name="sub2" id="" value="Go To Cart" />

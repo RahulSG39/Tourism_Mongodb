@@ -5,7 +5,9 @@
     "packagePrice": 31000,
     "packageDetails": "In Hinduism, Manu was said to have survived a great flood that destroyed the rest of the world. He then recreated mankind in this Kullu Valley town. What a rush, huh? No wonder the towering peaks and verdant terrain of Manali attracts adventure travellers, with heli-skiing, hiking, mountaineering and river rafting the favored active pursuits. Come down from your endorphin high by breathing deeply at the four-story, wooden Hidimba Devi Temple, which sits in the middle of a nearby deciduous forest, or take a medicinal soak in the hot springs burbling from the ground a 30-minute walk from town.",
     "packageImage": "IMAGES\\Manali_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-03-01"),
+    "endDate": new Date("2021-05-01")
   },
   {
     "packageId": 2,
@@ -13,7 +15,9 @@
     "packagePrice": 56000,
     "packageDetails": "The ancient city of Ujjain in the state of Madhya Pradesh is considered to be one of the holiest cities of India. Originally called Avantika, this city has a lot to give to the cultural heritage of the country. Once regarded as the center of learning and cultural hub of central India, it has gained immortality after its mention in the works of the great Kalidasa. Situated on the banks of River Kshipra, Ujjain is the site for the triennial Kumbh Mela. Once in every twelve years, it hosts millions of devotees who take the opportunity to bathe in the holy waters and pay their offerings.",
     "packageImage": "IMAGES\\Ujjain_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-04-10"),
+    "endDate": new Date("2021-09-01")
   },
   {
     "packageId": 3,
@@ -21,7 +25,9 @@
     "packagePrice": 41700,
     "packageDetails": "Goa is a favored tourist destination of people from around the world. With its vast stretches of silvery beaches caressed by the sparkling blue Arabian Sea, this city offers its visitors a medley of old-world charm and modern sophistication. The hidden coves of Goa offer an unexplored territory for the adventurer in you. Despite being the smallest state in India, Goa boasts a quality of life which is ranked No. 1 in the country. Goa is home to two World Heritage sights, namely the Bom Jesus Basilica and the churches and convents of Old Goa. The city has a very vibrant nightlife, ranked 6th in the world. Goa flaunts its Portuguese heritage in the many churches, temples, and mansions spread across the city. The Naval Aviation Museum, Fort Aguada, and the Wax Museum, showcasing the history, heritage and culture of India, are a few of the must-see attractions in Goa.",
     "packageImage": "IMAGES\\Goa_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-08-24"),
+    "endDate": new Date("2021-010-01")
   },
   {
     "packageId": 4,
@@ -29,7 +35,9 @@
     "packagePrice": 68400,
     "packageDetails": "With gurgling streams that snake around the verdant hills wreathed in mist, Coorg is a hill station in the state of Karnataka, in India. This alluring town has a serene vibe, enhanced by the sprawling acres of coffee plantations and religious monasteries and temples found here. Often called as the ‘Scotland of India,&#039; the green hills of Coorg are dotted with gushing waterfalls that whisper an ethereal music in your ears. The hill station is also a place to indulge in a spot of adventure, with river rafting and mountain climbing. The Namdroling Monastery, the Tibetan Buddhist Golden Temple, and Omkareshwar Temple are places that offer a refreshing energy to your senses. A visit to Coorg is incomplete without an exploration of Nagarhole National Park, replete with dense forests, small creeks, hills and a rich variety of flora and fauna.",
     "packageImage": "IMAGES\\Coorg_and_Wayanad_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-09-12"),
+    "endDate": new Date("2021-12-01")
   },
   {
     "packageId": 5,
@@ -37,7 +45,9 @@
     "packagePrice": 48300,
     "packageDetails": "With the seemingly unending expanse of tea estates that cover the rolling hills and valleys wreathed in a cool mist, Munnar is a favored vacation spot in South India. Located at an altitude of almost 6000 ft. in Idukki district of Kerala, this enchanting town offers visitors a relief from the summer heat and provides breathtaking sceneries and a slice of adventure. Home to exotic flora and fauna, and nestled among the mountains of the Western Ghats, this hill station offers a sanctuary to many endangered species of animals, at Eravikulam National Park and Kurinjimala Sanctuary. Witness the majesty of Anamudi Peak, the highest peak in South India, which can be seen from Munnar. The rare and beautiful ‘Neelakurinji’ flower blossoms on the slopes of the hills in Munnar, once in every twelve years. Munnar also has several pristine lakes and reservoirs surrounded by tall mountains that exude a serene aura, that calms your spirit and kindles the fires of romance in your heart.",
     "packageImage": "IMAGES\\Munnar_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-06-15"),
+    "endDate": new Date("2021-07-01")
   },
   {
     "packageId": 6,
@@ -45,6 +55,8 @@
     "packagePrice": 65900,
     "packageDetails": "One of India’s oldest cities, Pushkar is located in the Ajmer district of Rajasthan. Pushkar is an important pilgrimage town and one of five sacred sites visited by devout Hindus. Located next to the Pushkar lake, the city is full of temples, many of which were destroyed during the 12th century. It is often called ‘tirth raj&#039;, the king of pilgrimage sites. There are only a few remaining temples devoted to the Hindu god Brahma all around the world, and one such temple is located in Pushkar. The annual Pushkar fair takes place over five days in October and is a major tourist attraction in Pushkar It is also one of India’s largest cattle fairs with thousands of camels daily brought to the city. The beautiful city has 52 ghats and 400 blue temples. Beautiful lakes, magnificent temples and quaint hills give this mystical city a magical charm.",
     "packageImage": "IMAGES\\Jaipur_and_Pushka_1.jpg",
-    "creationDate": new Date()
+    "creationDate": new Date(),
+    "packageDate": new Date("2021-05-05"),
+    "endDate": new Date("2021-08-01")
   }
 ]
